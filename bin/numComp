@@ -1,0 +1,14 @@
+#!/bin/bash
+if [ $# -eq 0 ]; then
+	echo "No arquement(s) supplied"
+	exit 1
+elif [ $# -ne 2 ]; then
+	echo "Incorrect Number of Arguements"
+	exit 1
+elif [ $1 -lt $2 ]; then
+	echo "The second number is larger than the first"
+elif [ $1 -gt $2 ]; then
+	echo "The first number is larger than the second"
+else
+	echo "Both numbers are the same"
+fi

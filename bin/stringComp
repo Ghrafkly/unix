@@ -1,0 +1,17 @@
+#!/bin/bash
+s1=${#1}
+s2=${#2}
+
+if [ $# -eq 0 ]; then
+	echo "No arguement(s) supplied"
+	exit 1
+elif [ $# -ne 2 ]; then
+	echo "Incorrect arguement(s) supplied"
+	exit 1
+elif [ $s1 -lt $s2 ]; then
+	echo "String 2 is larger"
+elif [ $s1 -gt $s2 ]; then
+	echo "String 1 is larger"
+else
+	echo "They are of equal length"
+fi

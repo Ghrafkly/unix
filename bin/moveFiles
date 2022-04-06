@@ -1,0 +1,4 @@
+#!/bin/bash
+mv -t mydir myfile*
+echo "Move Operation Completed"
+ls mydir

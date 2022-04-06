@@ -1,0 +1,6 @@
+total 12
+-rw-r--r-- 1 FDMGROUP\kyle.sharp FDMGROUP\domain^users  206 Apr  4 03:47 homeList
+-rwxr-x--x 1 FDMGROUP\kyle.sharp FDMGROUP\domain^users    0 Apr  4 01:46 myProgram
+-rw-r--r-- 1 FDMGROUP\kyle.sharp FDMGROUP\domain^users 1187 Apr  4 03:52 newUsers
+-rw-r--r-- 1 FDMGROUP\kyle.sharp FDMGROUP\domain^users    0 Apr  4 01:43 places
+drwxr-xr-x 4 FDMGROUP\kyle.sharp FDMGROUP\domain^users 4096 Apr  4 02:47 tradingSystem

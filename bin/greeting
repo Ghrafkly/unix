@@ -1,0 +1,3 @@
+#!/bin/bash
+echo -n "Hello "
+echo $USER | cut -d"\\" -f2 | tr "." " " 
