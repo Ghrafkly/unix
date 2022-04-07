@@ -1,0 +1,40 @@
+#!/bin/bash
+add() {
+	echo "$1 + $2 = $[$1+$2]"
+}
+
+multiply() {
+	echo "$1 * $2 = $[$1*$2]"
+}
+
+subtract() {
+	echo "$1 - $2 = $[$1-$2]"
+}
+
+divide() {
+	echo "$1 / $2 = $(echo "scale=2; $1/$2" | bc)"
+} 
+
+if [ $# -eq 2 ]; then
+cat<<eof
+===========
+CALCULATOR
+===========
+1 - Add
+2 - Multiply
+3 - Subtract
+4 - Divide
+eof
+read -p "Enter operation: " input
+
+	case $input in
+		1) add $1 $2;;
+		2) multiply $1 $2;;
+		3) subtract $1 $2;;
+		4) divide $1 $2;;
+		*) echo "Invalid Input";;
+	esac
+else
+	echo "Incorrect set of numbers supplied"
+	exit 1
+fi

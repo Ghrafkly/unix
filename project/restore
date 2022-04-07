@@ -1,0 +1,32 @@
+#!/bin/bash
+
+if [ -z $1 ]; then
+	echo No file name provided
+	exit 1
+fi
+
+fileExist=false
+
+for file in $(more .restore.info)
+do
+	fileName=$(echo $file | cut -d":" -f1)
+	filePath=$(echo $file | cut -d":" -f2)
+	if [ $fileName == $1 ]; then
+		lineNumber=$(grep -n $fileName .restore.info | cut -d":" -f1)
+		fileExist=true
+		continue
+	fi
+done
+
+echo $lineNumber
+
+if $fileExist; then
+	echo "Restored \"$1\" to \"$filePath\""
+	mv -iv ~/recyclebin/$fileName $filePath >/dev/null
+	sed -i "${lineNumber}d" ~/.restore.info
+else
+	echo "File \"$1\" does not exist"
+	exit 1
+fi
+
+

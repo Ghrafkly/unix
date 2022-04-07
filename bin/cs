@@ -2,7 +2,7 @@
 
 touch $1
 chmod 751 $1
-echo "#!/bin/bash" > $1
+echo -e "#!/bin/bash\n" > $1
 cp $1 bin/$1
 rm $1
 vi bin/$1

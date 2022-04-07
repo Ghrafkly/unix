@@ -1,0 +1,43 @@
+#!/bin/bash
+function optFunc() {
+add=false
+subtract=false
+multiply=false
+divide=false
+while getopts :asmd opt
+do
+   case $opt in
+        a) add=true;;
+        s) subtract=true;;
+        m) multiply=true;;
+        d) divide=true;;
+        *) echo Bad Option - $OPTARG
+           exit 1;;
+   esac
+done
+}
+function mathFunc() {
+  if $add
+     then  sum=$[$1 + $2]
+           echo $1 + $2 = $sum
+  fi
+  if $subtract
+     then  difference=$[$1 - $2]
+           echo $1 - $2 = $difference
+  fi
+  if $multiply
+          then  product=$[$1 * $2]
+          echo "$1 * $2 = $product"
+  fi
+  if $divide
+      	then quotient=$(echo "scale=2; $1/$2" | bc) 
+          echo $1 / $2 = $quotient
+  fi
+}
+################### M A I N ########################
+optFunc $*
+echo $OPTIND
+shift $[OPTIND-1]
+echo $OPTIND
+mathFunc $*
+

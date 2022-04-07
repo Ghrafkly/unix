@@ -1,0 +1,7 @@
+#!/bin/bash
+read -p "Enter word: " word
+length=$(echo -n $word | wc -c )
+for ((i=0;i<length;i++))
+do
+	echo Letter $[i+1]: ${word:$i:1}
+done

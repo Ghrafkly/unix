@@ -1,0 +1,7 @@
+#!/bin/bash
+clear
+
+for file in *
+do
+	echo "file found: $file"
+done

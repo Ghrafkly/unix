@@ -1,0 +1,13 @@
+#!/bin/bash
+hour=$(date "+%T" | cut -d":" -f1)
+name=$(echo $USER | cut -d"\\" -f2 | tr "." " ")
+
+
+if [[ $hour < 12 ]]; then
+	echo "Good Morning" $name
+elif [[ $hour -ge 12 ]] && [[ $hour < 18 ]]; then
+      echo "Good Afternoon" $name
+else
+  echo "Good Evening" $name
+fi
+

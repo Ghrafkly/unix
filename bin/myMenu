@@ -1,0 +1,21 @@
+#!/bin/bash
+cat<<eof
+My Menu
+1. Display Date and Time
+2. Display Present Working Directory
+3. Display Active Processes
+4. Exit
+eof
+
+while true
+do	
+	read -p "Enter an option : " optVar
+
+	case $optVar in
+        	1) date;;
+	        2) pwd;;
+        	3) ps;;
+		4) exit 0;;
+	        *) echo "Invalid Input"
+	esac
+done

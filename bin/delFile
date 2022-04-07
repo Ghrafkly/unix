@@ -1,2 +1,16 @@
 #!/bin/bash
 read -p "Enter File Name: " name
+if [ ! -f $name ]; then
+	echo "Invalid file name"
+	exit 1
+fi
+
+read -p "Delete File? Y/N " choice
+
+case $choice in
+	y) rm $name ;;
+	Y) rm $name ;;
+	n) exit 0 ;;
+	N) exit 0 ;;
+	*) echo "Invalid input";;
+esac

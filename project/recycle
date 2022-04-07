@@ -1,0 +1,32 @@
+#!/bin/bash
+
+pathNoRemove=~/project/recycle
+
+if [ ! -d ~/recyclebin ]; then
+        mkdir recyclebin
+fi
+
+if [ ! -f .restore.info ]; then
+	touch .restore.info
+fi
+
+if [ -z $1 ]; then
+        echo No File Name Provided
+elif [ -d $1  ]; then
+        echo Directory name provided
+   	exit 1
+elif [ ! -f $1 ]; then
+        echo File \"$1\" does not exist
+        exit 1
+elif [ -e ~/project/$(basename $1) ]; then
+	echo Attempting to delete recycle - operation aborted
+	exit 1
+else
+	i_node=$(ls -i $1 | cut -d" " -f1)
+	file_name=$(basename $1)_$i_node
+        cp $1 recyclebin/$file_name
+	echo $file_name:$(realpath $1) >> .restore.info 
+	rm $1
+	echo "Moved $1 to recyclebin/"
+fi
+
