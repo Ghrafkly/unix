@@ -18,11 +18,9 @@ do
 	fi
 done
 
-echo $lineNumber
-
 if $fileExist; then
 	echo "Restored \"$1\" to \"$filePath\""
-	mv -iv ~/recyclebin/$fileName $filePath >/dev/null
+	mv ~/recyclebin/$fileName $filePath
 	sed -i "${lineNumber}d" ~/.restore.info
 else
 	echo "File \"$1\" does not exist"

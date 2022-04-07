@@ -1,6 +1,9 @@
 #!/bin/bash
 
 pathNoRemove=~/project/recycle
+interactive=false
+verbose=false
+recursive=false
 
 if [ ! -d ~/recyclebin ]; then
         mkdir recyclebin
@@ -10,23 +13,76 @@ if [ ! -f .restore.info ]; then
 	touch .restore.info
 fi
 
-if [ -z $1 ]; then
-        echo No File Name Provided
-elif [ -d $1  ]; then
-        echo Directory name provided
-   	exit 1
-elif [ ! -f $1 ]; then
-        echo File \"$1\" does not exist
-        exit 1
-elif [ -e ~/project/$(basename $1) ]; then
-	echo Attempting to delete recycle - operation aborted
-	exit 1
-else
-	i_node=$(ls -i $1 | cut -d" " -f1)
-	file_name=$(basename $1)_$i_node
-        cp $1 recyclebin/$file_name
-	echo $file_name:$(realpath $1) >> .restore.info 
-	rm $1
-	echo "Moved $1 to recyclebin/"
-fi
+arguments() {
+	while getopts :ivr opt
+	do
+		case $opt in
+			i) interactive=true;;
+			v) verbose=true;;
+			r) recursive=true;;
+			*) echo "Bad Option - $OPTARG"
+				exit 1;;
+		esac
+	done
+}
 
+deleteFile() {
+	while ($isBreak)
+	do
+		echo $1
+
+		i_node=$(ls -i $1| cut -d" " -f1)
+		fileName=$(basename $1)_$i_node
+
+		if $interactive; then
+			read -p "Confirm deletion of $1: " choice
+			if ! [[ $choice =~ [yY] ]]; then
+				isBreak=false
+				continue	
+			fi
+		fi
+
+		cp $1 recyclebin/$fileName
+		echo $fileName:$(realpath $1) >> .restore.info
+		rm $1
+
+		if $verbose; then
+			echo Moved $1 to Recycle Bin
+		fi
+		isBreak=false
+	done
+}
+
+fileMod() {
+	isBreak=true
+	for i in $*
+	do
+		if [ -z $i ]; then
+       			echo No File Name Provided
+			exit 1
+		elif [ -d $i  ]; then
+			if $recursive; then
+				for file in $(find $i -type f)
+				do
+					deleteFile $file
+				done
+			else
+				echo Directory name provided
+  				exit 1
+			fi
+		elif [ ! -f $i ]; then
+        		echo File \"$i\" does not exist
+ 		        exit 1
+		elif [ -e ~/project/$(basename $i) ]; then
+        		echo Attempting to delete recycle - operation aborted
+ 		        exit 1
+		else
+			deleteFile $i
+			isBreak=true
+		fi
+	done
+}
+
+arguments $*
+shift $[OPTIND-1]
+fileMod $*
