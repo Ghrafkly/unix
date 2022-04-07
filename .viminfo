@@ -11,24 +11,24 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/\$
+~Msle0~/\$
 
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1649314185,,"wq"
+|2,0,1649315779,,"wq"
+:w
+|2,0,1649315627,,"w"
+:q
+|2,0,1649315173,,"q"
 :qa!
 |2,0,1649314130,,"qa!"
-:w
-|2,0,1649313276,,"w"
 :'<,'>move -2
 |2,0,1649310476,,"'<,'>move -2"
 :q!
 |2,0,1649308694,,"q!"
-:q
-|2,0,1649307394,,"q"
 
 # Search String History (newest to oldest):
 ? @$
@@ -45,9 +45,9 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-""0	CHAR	0
+"0	CHAR	0
 	-
-|3,1,0,0,1,0,1649314111,"-"
+|3,0,0,0,1,0,1649314111,"-"
 "1	BLOCK	0
 	#
 	#
@@ -112,41 +112,129 @@ $
 	f
 	
 |3,0,3,2,21,0,1649304235,"#","i"," ","e"," "," ","e"," "," ","e"," "," ","e"," "," "," "," "," "," ","f",""
-"-	CHAR	0
+""-	CHAR	0
 	-
-|3,0,36,0,1,0,1649311742,"-"
+|3,1,36,0,1,0,1649311742,"-"
 
 # File marks:
-'0  88  11  ~/project/recycle
-|4,48,88,11,1649314185,"~/project/recycle"
-'1  7  78  ~/recyclebin
-|4,49,7,78,1649314130,"~/recyclebin"
-'2  70  11  ~/project/recycle
-|4,50,70,11,1649313498,"~/project/recycle"
-'3  70  11  ~/project/recycle
-|4,51,70,11,1649313498,"~/project/recycle"
-'4  56  16  ~/project/recycle
-|4,52,56,16,1649308694,"~/project/recycle"
-'5  28  16  ~/project/recycle
-|4,53,28,16,1649308694,"~/project/recycle"
-'6  56  16  ~/project/recycle
-|4,54,56,16,1649308694,"~/project/recycle"
-'7  28  16  ~/project/recycle
-|4,55,28,16,1649308694,"~/project/recycle"
-'8  89  11  ~/project/recycle
-|4,56,89,11,1649308007,"~/project/recycle"
-'9  86  11  ~/project/recycle
-|4,57,86,11,1649308007,"~/project/recycle"
+'0  24  46  ~/project/restore
+|4,48,24,46,1649315779,"~/project/restore"
+'1  22  29  ~/project/restore
+|4,49,22,29,1649315519,"~/project/restore"
+'2  22  29  ~/project/restore
+|4,50,22,29,1649315519,"~/project/restore"
+'3  22  18  ~/project/restore
+|4,51,22,18,1649315173,"~/project/restore"
+'4  22  18  ~/project/restore
+|4,52,22,18,1649315173,"~/project/restore"
+'5  88  11  ~/project/recycle
+|4,53,88,11,1649315032,"~/project/recycle"
+'6  88  11  ~/project/recycle
+|4,54,88,11,1649314185,"~/project/recycle"
+'7  7  78  ~/recyclebin
+|4,55,7,78,1649314130,"~/recyclebin"
+'8  70  11  ~/project/recycle
+|4,56,70,11,1649313498,"~/project/recycle"
+'9  70  11  ~/project/recycle
+|4,57,70,11,1649313498,"~/project/recycle"
 
 # Jumplist (newest first):
+-'  24  46  ~/project/restore
+|4,39,24,46,1649315779,"~/project/restore"
+-'  22  29  ~/project/restore
+|4,39,22,29,1649315594,"~/project/restore"
+-'  22  29  ~/project/restore
+|4,39,22,29,1649315519,"~/project/restore"
+-'  22  18  ~/project/restore
+|4,39,22,18,1649315173,"~/project/restore"
+-'  88  11  ~/project/recycle
+|4,39,88,11,1649315032,"~/project/recycle"
+-'  88  11  ~/project/recycle
+|4,39,88,11,1649315032,"~/project/recycle"
+-'  88  11  ~/project/recycle
+|4,39,88,11,1649315032,"~/project/recycle"
+-'  88  11  ~/project/recycle
+|4,39,88,11,1649315032,"~/project/recycle"
 -'  88  11  ~/project/recycle
 |4,39,88,11,1649314185,"~/project/recycle"
+-'  88  11  ~/project/recycle
+|4,39,88,11,1649314185,"~/project/recycle"
+-'  88  11  ~/project/recycle
+|4,39,88,11,1649314185,"~/project/recycle"
+-'  88  11  ~/project/recycle
+|4,39,88,11,1649314185,"~/project/recycle"
+-'  70  11  ~/project/recycle
+|4,39,70,11,1649314137,"~/project/recycle"
+-'  70  11  ~/project/recycle
+|4,39,70,11,1649314137,"~/project/recycle"
+-'  70  11  ~/project/recycle
+|4,39,70,11,1649314137,"~/project/recycle"
+-'  70  11  ~/project/recycle
+|4,39,70,11,1649314137,"~/project/recycle"
+-'  70  11  ~/project/recycle
+|4,39,70,11,1649314137,"~/project/recycle"
+-'  70  11  ~/project/recycle
+|4,39,70,11,1649314137,"~/project/recycle"
+-'  70  11  ~/project/recycle
+|4,39,70,11,1649314137,"~/project/recycle"
 -'  70  11  ~/project/recycle
 |4,39,70,11,1649314137,"~/project/recycle"
 -'  7  78  ~/recyclebin
 |4,39,7,78,1649314130,"~/recyclebin"
 -'  7  78  ~/recyclebin
 |4,39,7,78,1649314130,"~/recyclebin"
+-'  7  78  ~/recyclebin
+|4,39,7,78,1649314130,"~/recyclebin"
+-'  7  78  ~/recyclebin
+|4,39,7,78,1649314130,"~/recyclebin"
+-'  7  78  ~/recyclebin
+|4,39,7,78,1649314130,"~/recyclebin"
+-'  7  78  ~/recyclebin
+|4,39,7,78,1649314130,"~/recyclebin"
+-'  7  78  ~/recyclebin
+|4,39,7,78,1649314130,"~/recyclebin"
+-'  7  78  ~/recyclebin
+|4,39,7,78,1649314130,"~/recyclebin"
+-'  7  78  ~/recyclebin
+|4,39,7,78,1649314130,"~/recyclebin"
+-'  7  78  ~/recyclebin
+|4,39,7,78,1649314130,"~/recyclebin"
+-'  7  78  ~/recyclebin
+|4,39,7,78,1649314130,"~/recyclebin"
+-'  7  78  ~/recyclebin
+|4,39,7,78,1649314130,"~/recyclebin"
+-'  7  78  ~/recyclebin
+|4,39,7,78,1649314130,"~/recyclebin"
+-'  7  78  ~/recyclebin
+|4,39,7,78,1649314130,"~/recyclebin"
+-'  7  78  ~/recyclebin
+|4,39,7,78,1649314130,"~/recyclebin"
+-'  7  78  ~/recyclebin
+|4,39,7,78,1649314130,"~/recyclebin"
+-'  24  35  ~/project/restore
+|4,39,24,35,1649313502,"~/project/restore"
+-'  24  35  ~/project/restore
+|4,39,24,35,1649313502,"~/project/restore"
+-'  70  11  ~/project/recycle
+|4,39,70,11,1649313498,"~/project/recycle"
+-'  70  11  ~/project/recycle
+|4,39,70,11,1649313498,"~/project/recycle"
+-'  70  11  ~/project/recycle
+|4,39,70,11,1649313498,"~/project/recycle"
+-'  70  11  ~/project/recycle
+|4,39,70,11,1649313498,"~/project/recycle"
+-'  70  11  ~/project/recycle
+|4,39,70,11,1649313498,"~/project/recycle"
+-'  70  11  ~/project/recycle
+|4,39,70,11,1649313498,"~/project/recycle"
+-'  70  11  ~/project/recycle
+|4,39,70,11,1649313498,"~/project/recycle"
+-'  70  11  ~/project/recycle
+|4,39,70,11,1649313498,"~/project/recycle"
+-'  70  11  ~/project/recycle
+|4,39,70,11,1649313498,"~/project/recycle"
+-'  70  11  ~/project/recycle
+|4,39,70,11,1649313498,"~/project/recycle"
 -'  70  11  ~/project/recycle
 |4,39,70,11,1649313498,"~/project/recycle"
 -'  70  11  ~/project/recycle
@@ -163,187 +251,205 @@ $
 |4,39,45,5,1649310662,"~/project/recycle"
 -'  40  3  ~/project/recycle
 |4,39,40,3,1649310662,"~/project/recycle"
+-'  45  5  ~/project/recycle
+|4,39,45,5,1649310662,"~/project/recycle"
+-'  40  3  ~/project/recycle
+|4,39,40,3,1649310662,"~/project/recycle"
+-'  45  5  ~/project/recycle
+|4,39,45,5,1649310662,"~/project/recycle"
+-'  40  3  ~/project/recycle
+|4,39,40,3,1649310662,"~/project/recycle"
+-'  45  5  ~/project/recycle
+|4,39,45,5,1649310662,"~/project/recycle"
+-'  40  3  ~/project/recycle
+|4,39,40,3,1649310662,"~/project/recycle"
+-'  45  5  ~/project/recycle
+|4,39,45,5,1649310662,"~/project/recycle"
+-'  40  3  ~/project/recycle
+|4,39,40,3,1649310662,"~/project/recycle"
+-'  45  5  ~/project/recycle
+|4,39,45,5,1649310662,"~/project/recycle"
+-'  40  3  ~/project/recycle
+|4,39,40,3,1649310662,"~/project/recycle"
+-'  45  5  ~/project/recycle
+|4,39,45,5,1649310662,"~/project/recycle"
+-'  40  3  ~/project/recycle
+|4,39,40,3,1649310662,"~/project/recycle"
+-'  45  5  ~/project/recycle
+|4,39,45,5,1649310662,"~/project/recycle"
+-'  40  3  ~/project/recycle
+|4,39,40,3,1649310662,"~/project/recycle"
+-'  45  5  ~/project/recycle
+|4,39,45,5,1649310662,"~/project/recycle"
+-'  40  3  ~/project/recycle
+|4,39,40,3,1649310662,"~/project/recycle"
+-'  45  5  ~/project/recycle
+|4,39,45,5,1649310662,"~/project/recycle"
+-'  40  3  ~/project/recycle
+|4,39,40,3,1649310662,"~/project/recycle"
+-'  45  5  ~/project/recycle
+|4,39,45,5,1649310662,"~/project/recycle"
+-'  40  3  ~/project/recycle
+|4,39,40,3,1649310662,"~/project/recycle"
+-'  45  5  ~/project/recycle
+|4,39,45,5,1649310662,"~/project/recycle"
+-'  40  3  ~/project/recycle
+|4,39,40,3,1649310662,"~/project/recycle"
+-'  45  5  ~/project/recycle
+|4,39,45,5,1649310662,"~/project/recycle"
+-'  40  3  ~/project/recycle
+|4,39,40,3,1649310662,"~/project/recycle"
+-'  45  5  ~/project/recycle
+|4,39,45,5,1649310662,"~/project/recycle"
+-'  40  3  ~/project/recycle
+|4,39,40,3,1649310662,"~/project/recycle"
+-'  45  5  ~/project/recycle
+|4,39,45,5,1649310662,"~/project/recycle"
+-'  40  3  ~/project/recycle
+|4,39,40,3,1649310662,"~/project/recycle"
+-'  45  5  ~/project/recycle
+|4,39,45,5,1649310662,"~/project/recycle"
+-'  40  3  ~/project/recycle
+|4,39,40,3,1649310662,"~/project/recycle"
+-'  45  5  ~/project/recycle
+|4,39,45,5,1649310662,"~/project/recycle"
+-'  40  3  ~/project/recycle
+|4,39,40,3,1649310662,"~/project/recycle"
+-'  45  5  ~/project/recycle
+|4,39,45,5,1649310662,"~/project/recycle"
+-'  40  3  ~/project/recycle
+|4,39,40,3,1649310662,"~/project/recycle"
 -'  56  10  ~/project/recycle
 |4,39,56,10,1649308696,"~/project/recycle"
 -'  56  10  ~/project/recycle
 |4,39,56,10,1649308696,"~/project/recycle"
 -'  56  10  ~/project/recycle
 |4,39,56,10,1649308696,"~/project/recycle"
--'  28  16  ~/project/recycle
-|4,39,28,16,1649308694,"~/project/recycle"
--'  28  16  ~/project/recycle
-|4,39,28,16,1649308694,"~/project/recycle"
--'  28  16  ~/project/recycle
-|4,39,28,16,1649308694,"~/project/recycle"
--'  89  11  ~/project/recycle
-|4,39,89,11,1649308009,"~/project/recycle"
--'  64  11  ~/project/recycle
-|4,39,64,11,1649308009,"~/project/recycle"
--'  89  11  ~/project/recycle
-|4,39,89,11,1649308009,"~/project/recycle"
--'  64  11  ~/project/recycle
-|4,39,64,11,1649308009,"~/project/recycle"
--'  89  11  ~/project/recycle
-|4,39,89,11,1649308009,"~/project/recycle"
--'  64  11  ~/project/recycle
-|4,39,64,11,1649308009,"~/project/recycle"
--'  86  11  ~/project/recycle
-|4,39,86,11,1649308007,"~/project/recycle"
--'  61  11  ~/project/recycle
-|4,39,61,11,1649308007,"~/project/recycle"
--'  86  11  ~/project/recycle
-|4,39,86,11,1649308007,"~/project/recycle"
--'  61  11  ~/project/recycle
-|4,39,61,11,1649308007,"~/project/recycle"
--'  86  11  ~/project/recycle
-|4,39,86,11,1649308007,"~/project/recycle"
--'  61  11  ~/project/recycle
-|4,39,61,11,1649308007,"~/project/recycle"
--'  23  35  ~/project/restore
-|4,39,23,35,1649307394,"~/project/restore"
--'  23  35  ~/project/restore
-|4,39,23,35,1649307394,"~/project/restore"
--'  23  35  ~/project/restore
-|4,39,23,35,1649307394,"~/project/restore"
--'  23  35  ~/project/restore
-|4,39,23,35,1649307394,"~/project/restore"
--'  23  35  ~/project/restore
-|4,39,23,35,1649307394,"~/project/restore"
--'  23  35  ~/project/restore
-|4,39,23,35,1649307394,"~/project/restore"
--'  23  35  ~/project/restore
-|4,39,23,35,1649307394,"~/project/restore"
--'  23  35  ~/project/restore
-|4,39,23,35,1649307394,"~/project/restore"
--'  23  35  ~/project/restore
-|4,39,23,35,1649307394,"~/project/restore"
--'  23  35  ~/project/restore
-|4,39,23,35,1649307394,"~/project/restore"
--'  23  35  ~/project/restore
-|4,39,23,35,1649307394,"~/project/restore"
--'  23  35  ~/project/restore
-|4,39,23,35,1649307394,"~/project/restore"
--'  23  35  ~/project/restore
-|4,39,23,35,1649307394,"~/project/restore"
--'  23  35  ~/project/restore
-|4,39,23,35,1649307394,"~/project/restore"
--'  23  35  ~/project/restore
-|4,39,23,35,1649307394,"~/project/restore"
--'  23  35  ~/project/restore
-|4,39,23,35,1649307394,"~/project/restore"
--'  20  0  ~/project/restore
-|4,39,20,0,1649307376,"~/project/restore"
--'  20  0  ~/project/restore
-|4,39,20,0,1649307376,"~/project/restore"
--'  20  0  ~/project/restore
-|4,39,20,0,1649307376,"~/project/restore"
--'  20  0  ~/project/restore
-|4,39,20,0,1649307376,"~/project/restore"
--'  20  0  ~/project/restore
-|4,39,20,0,1649307376,"~/project/restore"
--'  20  0  ~/project/restore
-|4,39,20,0,1649307376,"~/project/restore"
--'  20  0  ~/project/restore
-|4,39,20,0,1649307376,"~/project/restore"
--'  20  0  ~/project/restore
-|4,39,20,0,1649307376,"~/project/restore"
--'  20  0  ~/project/restore
-|4,39,20,0,1649307376,"~/project/restore"
--'  20  0  ~/project/restore
-|4,39,20,0,1649307376,"~/project/restore"
--'  20  0  ~/project/restore
-|4,39,20,0,1649307376,"~/project/restore"
--'  20  0  ~/project/restore
-|4,39,20,0,1649307376,"~/project/restore"
--'  20  0  ~/project/restore
-|4,39,20,0,1649307376,"~/project/restore"
--'  20  0  ~/project/restore
-|4,39,20,0,1649307376,"~/project/restore"
--'  20  0  ~/project/restore
-|4,39,20,0,1649307376,"~/project/restore"
--'  20  0  ~/project/restore
-|4,39,20,0,1649307376,"~/project/restore"
--'  90  5  ~/project/recycle
-|4,39,90,5,1649304967,"~/project/recycle"
--'  66  5  ~/project/recycle
-|4,39,66,5,1649304967,"~/project/recycle"
--'  63  5  ~/project/recycle
-|4,39,63,5,1649304967,"~/project/recycle"
--'  90  5  ~/project/recycle
-|4,39,90,5,1649304967,"~/project/recycle"
--'  88  5  ~/project/recycle
-|4,39,88,5,1649304967,"~/project/recycle"
--'  66  5  ~/project/recycle
-|4,39,66,5,1649304967,"~/project/recycle"
--'  63  5  ~/project/recycle
-|4,39,63,5,1649304967,"~/project/recycle"
--'  90  5  ~/project/recycle
-|4,39,90,5,1649304967,"~/project/recycle"
--'  88  5  ~/project/recycle
-|4,39,88,5,1649304967,"~/project/recycle"
--'  66  5  ~/project/recycle
-|4,39,66,5,1649304967,"~/project/recycle"
--'  63  5  ~/project/recycle
-|4,39,63,5,1649304967,"~/project/recycle"
--'  82  23  ~/project/recycle
-|4,39,82,23,1649304367,"~/project/recycle"
--'  53  15  ~/project/recycle
-|4,39,53,15,1649304367,"~/project/recycle"
--'  82  23  ~/project/recycle
-|4,39,82,23,1649304367,"~/project/recycle"
--'  56  15  ~/project/recycle
-|4,39,56,15,1649304367,"~/project/recycle"
--'  53  15  ~/project/recycle
-|4,39,53,15,1649304367,"~/project/recycle"
--'  82  23  ~/project/recycle
-|4,39,82,23,1649304367,"~/project/recycle"
--'  56  15  ~/project/recycle
-|4,39,56,15,1649304367,"~/project/recycle"
--'  53  15  ~/project/recycle
-|4,39,53,15,1649304367,"~/project/recycle"
--'  20  0  ~/project/restore
-|4,39,20,0,1649303999,"~/project/restore"
--'  20  0  ~/project/restore
-|4,39,20,0,1649303999,"~/project/restore"
--'  20  0  ~/project/restore
-|4,39,20,0,1649303999,"~/project/restore"
--'  20  0  ~/project/restore
-|4,39,20,0,1649303999,"~/project/restore"
--'  20  0  ~/project/restore
-|4,39,20,0,1649303999,"~/project/restore"
--'  20  0  ~/project/restore
-|4,39,20,0,1649303999,"~/project/restore"
--'  20  0  ~/project/restore
-|4,39,20,0,1649303999,"~/project/restore"
--'  20  0  ~/project/restore
-|4,39,20,0,1649303999,"~/project/restore"
--'  20  0  ~/project/restore
-|4,39,20,0,1649303999,"~/project/restore"
--'  20  0  ~/project/restore
-|4,39,20,0,1649303999,"~/project/restore"
--'  20  0  ~/project/restore
-|4,39,20,0,1649303999,"~/project/restore"
--'  20  0  ~/project/restore
-|4,39,20,0,1649303999,"~/project/restore"
--'  20  0  ~/project/restore
-|4,39,20,0,1649303999,"~/project/restore"
--'  20  0  ~/project/restore
-|4,39,20,0,1649303999,"~/project/restore"
--'  20  0  ~/project/restore
-|4,39,20,0,1649303999,"~/project/restore"
--'  20  0  ~/project/restore
-|4,39,20,0,1649303999,"~/project/restore"
--'  20  0  ~/project/restore
-|4,39,20,0,1649303999,"~/project/restore"
--'  20  0  ~/project/restore
-|4,39,20,0,1649303999,"~/project/restore"
--'  20  0  ~/project/restore
-|4,39,20,0,1649303999,"~/project/restore"
+-'  56  10  ~/project/recycle
+|4,39,56,10,1649308696,"~/project/recycle"
+-'  56  10  ~/project/recycle
+|4,39,56,10,1649308696,"~/project/recycle"
+-'  56  10  ~/project/recycle
+|4,39,56,10,1649308696,"~/project/recycle"
+-'  56  10  ~/project/recycle
+|4,39,56,10,1649308696,"~/project/recycle"
+-'  56  10  ~/project/recycle
+|4,39,56,10,1649308696,"~/project/recycle"
+-'  56  10  ~/project/recycle
+|4,39,56,10,1649308696,"~/project/recycle"
+-'  56  10  ~/project/recycle
+|4,39,56,10,1649308696,"~/project/recycle"
 
 # History of marks within files (newest to oldest):
 
+> ~/project/restore
+	*	1649315777	0
+	"	24	46
+	^	24	47
+	.	24	46
+	+	10	5
+	+	10	17
+	+	10	0
+	+	28	0
+	+	19	25
+	+	10	0
+	+	11	0
+	+	19	26
+	+	14	45
+	+	14	5
+	+	10	0
+	+	11	2
+	+	12	20
+	+	14	20
+	+	14	45
+	+	14	25
+	+	14	45
+	+	14	15
+	+	14	43
+	+	14	45
+	+	14	6
+	+	14	45
+	+	19	0
+	+	12	1
+	+	12	2
+	+	19	0
+	+	12	41
+	+	14	81
+	+	18	0
+	+	14	0
+	+	12	0
+	+	14	67
+	+	18	0
+	+	19	1
+	+	2	0
+	+	10	0
+	+	10	15
+	+	14	66
+	+	14	68
+	+	18	0
+	+	20	4
+	+	20	21
+	+	27	0
+	+	14	75
+	+	20	29
+	+	12	17
+	+	19	36
+	+	16	31
+	+	11	0
+	+	14	47
+	+	3	14
+	+	14	37
+	+	13	38
+	+	19	49
+	+	14	50
+	+	19	22
+	+	19	36
+	+	25	30
+	+	26	6
+	+	7	0
+	+	3	18
+	+	6	0
+	+	25	17
+	+	21	1
+	+	19	50
+	+	21	0
+	+	19	50
+	+	20	16
+	+	19	50
+	+	21	15
+	+	20	16
+	+	24	0
+	+	19	37
+	+	21	7
+	+	19	22
+	+	21	1
+	+	20	21
+	+	19	3
+	+	21	5
+	+	20	34
+	+	21	39
+	+	20	38
+	+	21	51
+	+	24	4
+	+	24	0
+	+	14	30
+	+	14	38
+	+	14	29
+	+	16	0
+	+	17	0
+	+	16	15
+	+	15	62
+	+	20	15
+	+	25	0
+	+	23	26
+	+	20	0
+	+	21	0
+	+	24	36
+	+	22	29
+	+	24	46
+
 > ~/project/recycle
-	*	1649314176	0
+	*	1649315031	0
 	"	88	11
 	^	88	12
 	.	70	11
@@ -444,111 +550,6 @@ $
 	+	50	15
 	+	68	16
 	+	70	11
-
-> ~/project/restore
-	*	1649307392	0
-	"	23	35
-	^	23	36
-	.	23	36
-	+	10	21
-	+	10	5
-	+	10	17
-	+	10	0
-	+	27	0
-	+	19	25
-	+	10	0
-	+	11	0
-	+	19	26
-	+	14	45
-	+	14	5
-	+	10	0
-	+	11	2
-	+	12	20
-	+	14	20
-	+	14	45
-	+	14	25
-	+	14	45
-	+	14	15
-	+	14	43
-	+	14	45
-	+	14	6
-	+	14	45
-	+	19	0
-	+	12	1
-	+	12	2
-	+	19	0
-	+	12	41
-	+	14	81
-	+	18	0
-	+	14	0
-	+	12	0
-	+	14	67
-	+	18	0
-	+	19	1
-	+	2	0
-	+	10	0
-	+	10	15
-	+	14	66
-	+	14	68
-	+	18	0
-	+	20	4
-	+	20	21
-	+	26	0
-	+	14	75
-	+	20	29
-	+	12	17
-	+	19	36
-	+	16	31
-	+	11	0
-	+	14	47
-	+	3	14
-	+	14	37
-	+	13	38
-	+	19	49
-	+	14	50
-	+	19	22
-	+	19	36
-	+	24	30
-	+	25	6
-	+	7	0
-	+	3	18
-	+	6	0
-	+	24	17
-	+	21	1
-	+	19	50
-	+	21	0
-	+	19	50
-	+	20	16
-	+	19	50
-	+	21	15
-	+	20	16
-	+	23	0
-	+	19	37
-	+	21	7
-	+	19	22
-	+	21	1
-	+	20	21
-	+	19	3
-	+	21	5
-	+	20	34
-	+	21	39
-	+	20	38
-	+	21	51
-	+	23	4
-	+	23	0
-	+	14	30
-	+	14	38
-	+	14	29
-	+	16	0
-	+	17	0
-	+	16	15
-	+	15	62
-	+	20	15
-	+	24	0
-	+	22	26
-	+	20	0
-	+	21	0
-	+	23	36
 
 > ~/.restore.info
 	*	1649294322	0

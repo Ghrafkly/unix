@@ -19,9 +19,9 @@ do
 done
 
 if $fileExist; then
-	mkdir -p $filePath
+	mkdir -p $(dirname $filePath)
 	echo "Restored \"$1\" to \"$filePath\""
-	mv ~/recyclebin/$fileName $filePath
+	mv ~/recyclebin/$fileName $(dirname $filePath)
 	sed -i "${lineNumber}d" ~/.restore.info
 else
 	echo "File \"$1\" does not exist"
