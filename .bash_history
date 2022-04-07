@@ -1233,3 +1233,312 @@ ls -a ~ | grep ^.#*
 ls -a ~ | grep ^.
 ls -a ~ | grep ^\.
 ls -a ~ | grep ^\\.
+ls
+echo "# unix" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Ghrafkly/unix.git
+git push -u origin main
+git commit --help
+git init
+git add *
+git push
+ls
+grep --help
+git remote add origin https://github.com/Ghrafkly/unix.git
+git branch -M main
+git push -u origin main
+git status
+git commit
+git add .
+git commin -m 'success'
+git commit -m 'success'
+git status
+git origin
+git push
+git status
+cd bin
+ls
+cd ..
+vi bin/delFile 
+delFile 
+vi bin/delFile 
+opt=${echo -i "D"}
+opt=${echo -i D}
+opt=${A,,,}
+opt
+echo $opt
+opt="${A,,,}"
+echo $opt 
+ls
+delFile 
+vi bin/delFile 
+cs forLoop
+forLoop 
+cs myMenu
+myMenu 
+3
+myMenu 
+man date
+cs greetingImproved
+time
+date
+date --help
+date -T
+date %T
+date "%T"
+date "+%T"
+vi bin/greetingImproved 
+greetingImproved 
+vi bin/greetingImproved 
+greetingImproved 
+vi bin/greetingImproved 
+greetingImproved 
+vi bin/greetingImproved 
+greetingImproved 
+vi bin/greetingImproved 
+greetingImproved 
+vi bin/greetingImproved 
+greetingImproved 
+date "+%T"
+date "+%T" : cut -d":" -f1
+date "+%T" | cut -d":" -f1
+date "+%T" | cut -d":"
+date "+%T" | cut -d":" -f1
+vi bin/greetingImproved 
+date "+%T" | cut -d":" -f1
+greetingImproved 
+vi bin/greetingImproved 
+greetingImproved 
+vi bin/greetingImproved 
+greetingImproved 
+vi bin/greetingImproved 
+greetingImproved 
+vi bin/greetingImproved 
+cs fileCounter
+vi bin/cs
+cs test
+vi bin/cs
+rm bin/test 
+cs test
+rm bin/test 
+vi bin/fileCount
+vi bin/fileCounter
+fileCounter a b c
+vi bin/fileCounter
+ls
+fileCounter Kyle.Sharp README.md accounts
+vi bin/fileCounter
+fileCounter Kyle.Sharp README.md accounts
+vi bin/fileCounter
+fileCounter Kyle.Sharp README.md accounts
+vi bin/fileCounter
+fileCounter Kyle.Sharp README.md accounts
+vi bin/fileCounter
+fileCounter Kyle.Sharp README.md accounts
+ls -help
+ls --help
+vi bin/fileCounter
+fileCounter Kyle.Sharp README.md accounts
+find --help
+wc --help
+vi bin/fileCounter
+fileCounter Kyle.Sharp README.md accounts
+ls
+vi bin/fileCounter
+fileCounter Kyle.Sharp README.md accounts
+vi bin/fileCounter
+fileCounter Kyle.Sharp README.md accounts
+fileCounter Kyle.Sharp README.md accountsss
+fileCounter Kyle.Sharp README.msd accounts
+fileCounter Kyle.Sharp README.md accounts
+vi bin/fileCounter
+fileCounter Kyle.Sharp README.msd accounts
+vi bin/fileCounter
+fileCounter Kyle.Sharp README.msd accounts
+vi bin/fileCounter
+cs total
+vi bin/total 
+total 5
+vi bin/total 
+total 5
+vi bin/total 
+total 5
+vi bin/total 
+total 5
+vi bin/total 
+total 5
+vi bin/total 
+total 5
+vi bin/total 
+total 5
+vi bin/total 
+total 5
+vi bin/total 
+total 5
+vi bin/total 
+total 5
+total 10
+total 100
+total 1000
+total 1000000000
+total 100000 &
+ps
+total 1000000000 &
+ps
+kill -9 15646
+ps
+cs lineCounter
+lineCounter accounts
+vi bin/lineCounter 
+lineCounter accounts
+vi bin/lineCounter 
+lineCounter accounts
+vi bin/lineCounter 
+lineCounter accounts
+vi bin/lineCounter 
+lineCounter accounts
+vi bin/lineCounter 
+type pwd
+type who
+type lineCounter
+man bash
+ls | more
+ls
+cs math
+math -a 2 3
+vi bin/math
+math -a 2 3
+vi bin/math
+math -a 2 3
+vi bin/math
+math -a 2 3
+echo $OPTIND
+math -a 2 3
+vi bin/math
+math -a 2 3
+math 2 3
+math -am 2 3
+math -a -m 2 3
+math -a -m -s -d 2 3
+myMenu 
+vi bin/myMenu 
+myMenu 
+vi bin/myMenu 
+myMenu 
+vi bin/myMenu 
+myMenu 
+vi bin/myMenu 
+myMenu 
+vi bin/myMenu 
+myMenu 
+vi bin/myMenu 
+cs letterLoop
+letterLoop done
+vi bin/letterLoop 
+letterLoop
+vi bin/letterLoop 
+letterLoop
+vi bin/letterLoop 
+letterLoop
+vi bin/letterLoop 
+letterLoop
+vi bin/letterLoop 
+letterLoop
+vi bin/letterLoop 
+letterLoop
+vi bin/letterLoop 
+cs calculator
+calculator 
+vi bin/calculator 
+calculator 
+calculator 20 20
+vi bin/calculator 
+calculator 20 20
+vi bin/calculator 
+calculator 20 20
+vi bin/calculator 
+cs test
+test
+vi bin/test
+test
+vi bin/test
+test
+vi bin/test
+test
+vi bin/test
+test
+vi bin/test
+ls bin/
+more bin/test
+calculator 20 20
+vi bin/test
+rm bin/test
+ls
+date "+%H"
+vi bin/calculator 
+calculator 20 20
+vi bin/calculator 
+calculator 20 20
+vi bin/calculator 
+calculator 20 20
+vi bin/calculator 
+calculator 20 20
+vi bin/calculator 
+calculator 2
+vi bin/calculator 
+calculator 2
+vi bin/calculator 
+calculator 2
+vi bin/calculator 
+mkdir recyclebin
+ls
+echo $HOME
+ls
+mkdir project
+rm recyclebin/
+rmdir recyclebin/
+ls
+git status
+git init
+git status
+more bin/cs
+ls
+cd project/
+touch recycle
+ls
+cd ..
+echo "source ~/.bashrc" >> ~/.bash_profile
+ls
+ls -a
+vi .bash_profile 
+clearScript 
+ls
+vi project/recycle
+chmod 751 project/recycle 
+recycle
+cd project/
+recycle
+cd ..
+more bin/cs
+ls -l project/recycle 
+ls -l bin/cs
+ls
+cd project/
+ls
+more recycle 
+vi recycle 
+cd ..
+recycle
+cd project/
+ls -l recycle 
+more recycle 
+recycle
+cd ..
+recycle
+bash recycle
+echo $PATH
+recycle 
+echo $PATH

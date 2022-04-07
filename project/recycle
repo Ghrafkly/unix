@@ -65,7 +65,9 @@ fileMod() {
 				for file in $(find $i -type f)
 				do
 					deleteFile $file
+					isBreak=true
 				done
+				rmdir $i
 			else
 				echo Directory name provided
   				exit 1

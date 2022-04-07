@@ -19,6 +19,7 @@ do
 done
 
 if $fileExist; then
+	mkdir -p $filePath
 	echo "Restored \"$1\" to \"$filePath\""
 	mv ~/recyclebin/$fileName $filePath
 	sed -i "${lineNumber}d" ~/.restore.info

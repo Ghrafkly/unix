@@ -10,22 +10,33 @@
 
 # hlsearch on (H) or off (h):
 ~h
+# Last Search Pattern:
+~MSle0~/\$
+
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
-:q!
-|2,0,1649143027,,"q!"
-:q
-|2,0,1649142688,,"q"
 :wq
-|2,0,1649142574,,"wq"
+|2,0,1649314185,,"wq"
+:qa!
+|2,0,1649314130,,"qa!"
 :w
-|2,0,1649141580,,"w"
+|2,0,1649313276,,"w"
+:'<,'>move -2
+|2,0,1649310476,,"'<,'>move -2"
+:q!
+|2,0,1649308694,,"q!"
+:q
+|2,0,1649307394,,"q"
 
 # Search String History (newest to oldest):
 ? @$
-|2,1,1649135357,,"@$"
+|2,1,1649314111,,"@$"
+? \$
+|2,1,1649304967,,"\\$"
+? \<fi\>
+|2,1,1649304367,,"\\<fi\\>"
 
 # Expression History (newest to oldest):
 
@@ -34,238 +45,830 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	CHAR	0
+""0	CHAR	0
+	-
+|3,1,0,0,1,0,1649314111,"-"
+"1	BLOCK	0
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+|3,0,1,2,16,0,1649304850,"#","#","#","#","#","#","#","#","#","#","#","#","#","#","#","#"
+"2	BLOCK	0
+	#
+	i
 	 
-|3,0,0,0,1,0,1649135357," "
-""-	CHAR	0
-	;
-|3,1,36,0,1,0,1649141855,";"
+	e
+	 
+	 
+	e
+	 
+	 
+	e
+	 
+	 
+	e
+	 
+	 
+	 
+	 
+	 
+	 
+	f
+	
+|3,0,2,2,21,0,1649304235,"#","i"," ","e"," "," ","e"," "," ","e"," "," ","e"," "," "," "," "," "," ","f",""
+"3	BLOCK	0
+	#
+	i
+	 
+	e
+	 
+	 
+	e
+	 
+	 
+	e
+	 
+	 
+	e
+	 
+	 
+	 
+	 
+	 
+	 
+	f
+	
+|3,0,3,2,21,0,1649304235,"#","i"," ","e"," "," ","e"," "," ","e"," "," ","e"," "," "," "," "," "," ","f",""
+"-	CHAR	0
+	-
+|3,0,36,0,1,0,1649311742,"-"
 
 # File marks:
-'0  1  0  ~/bin/myVars
-|4,48,1,0,1649143027,"~/bin/myVars"
-'1  3  0  ~/bin/delFile
-|4,49,3,0,1649142693,"~/bin/delFile"
-'2  2  31  ~/bin/delFile
-|4,50,2,31,1649142574,"~/bin/delFile"
-'3  2  31  ~/bin/delFile
-|4,51,2,31,1649142574,"~/bin/delFile"
-'4  11  16  ~/bin/stringComp
-|4,52,11,16,1649142332,"~/bin/stringComp"
-'5  10  6  ~/bin/stringComp
-|4,53,10,6,1649142301,"~/bin/stringComp"
-'6  10  6  ~/bin/stringComp
-|4,54,10,6,1649142301,"~/bin/stringComp"
-'7  13  21  ~/bin/stringComp
-|4,55,13,21,1649142276,"~/bin/stringComp"
-'8  12  21  ~/bin/stringComp
-|4,56,12,21,1649142276,"~/bin/stringComp"
-'9  13  21  ~/bin/stringComp
-|4,57,13,21,1649142276,"~/bin/stringComp"
+'0  88  11  ~/project/recycle
+|4,48,88,11,1649314185,"~/project/recycle"
+'1  7  78  ~/recyclebin
+|4,49,7,78,1649314130,"~/recyclebin"
+'2  70  11  ~/project/recycle
+|4,50,70,11,1649313498,"~/project/recycle"
+'3  70  11  ~/project/recycle
+|4,51,70,11,1649313498,"~/project/recycle"
+'4  56  16  ~/project/recycle
+|4,52,56,16,1649308694,"~/project/recycle"
+'5  28  16  ~/project/recycle
+|4,53,28,16,1649308694,"~/project/recycle"
+'6  56  16  ~/project/recycle
+|4,54,56,16,1649308694,"~/project/recycle"
+'7  28  16  ~/project/recycle
+|4,55,28,16,1649308694,"~/project/recycle"
+'8  89  11  ~/project/recycle
+|4,56,89,11,1649308007,"~/project/recycle"
+'9  86  11  ~/project/recycle
+|4,57,86,11,1649308007,"~/project/recycle"
 
 # Jumplist (newest first):
--'  1  0  ~/bin/myVars
-|4,39,1,0,1649143027,"~/bin/myVars"
--'  3  0  ~/bin/delFile
-|4,39,3,0,1649142693,"~/bin/delFile"
--'  3  0  ~/bin/delFile
-|4,39,3,0,1649142693,"~/bin/delFile"
--'  2  31  ~/bin/delFile
-|4,39,2,31,1649142589,"~/bin/delFile"
--'  2  31  ~/bin/delFile
-|4,39,2,31,1649142589,"~/bin/delFile"
--'  2  31  ~/bin/delFile
-|4,39,2,31,1649142574,"~/bin/delFile"
--'  2  31  ~/bin/delFile
-|4,39,2,31,1649142574,"~/bin/delFile"
--'  1  0  ~/bin/delFile
-|4,39,1,0,1649142530,"~/bin/delFile"
--'  1  0  ~/bin/delFile
-|4,39,1,0,1649142530,"~/bin/delFile"
--'  1  0  ~/bin/delFile
-|4,39,1,0,1649142530,"~/bin/delFile"
--'  1  0  ~/bin/delFile
-|4,39,1,0,1649142530,"~/bin/delFile"
--'  11  16  ~/bin/stringComp
-|4,39,11,16,1649142332,"~/bin/stringComp"
--'  11  16  ~/bin/stringComp
-|4,39,11,16,1649142332,"~/bin/stringComp"
--'  11  16  ~/bin/stringComp
-|4,39,11,16,1649142332,"~/bin/stringComp"
--'  11  16  ~/bin/stringComp
-|4,39,11,16,1649142332,"~/bin/stringComp"
--'  11  16  ~/bin/stringComp
-|4,39,11,16,1649142332,"~/bin/stringComp"
--'  11  16  ~/bin/stringComp
-|4,39,11,16,1649142332,"~/bin/stringComp"
--'  11  16  ~/bin/stringComp
-|4,39,11,16,1649142332,"~/bin/stringComp"
--'  11  16  ~/bin/stringComp
-|4,39,11,16,1649142332,"~/bin/stringComp"
--'  5  13  ~/bin/stringComp
-|4,39,5,13,1649142321,"~/bin/stringComp"
--'  5  13  ~/bin/stringComp
-|4,39,5,13,1649142321,"~/bin/stringComp"
--'  5  13  ~/bin/stringComp
-|4,39,5,13,1649142321,"~/bin/stringComp"
--'  5  13  ~/bin/stringComp
-|4,39,5,13,1649142321,"~/bin/stringComp"
--'  5  13  ~/bin/stringComp
-|4,39,5,13,1649142321,"~/bin/stringComp"
--'  5  13  ~/bin/stringComp
-|4,39,5,13,1649142321,"~/bin/stringComp"
--'  5  13  ~/bin/stringComp
-|4,39,5,13,1649142321,"~/bin/stringComp"
--'  5  13  ~/bin/stringComp
-|4,39,5,13,1649142321,"~/bin/stringComp"
--'  10  6  ~/bin/stringComp
-|4,39,10,6,1649142311,"~/bin/stringComp"
--'  10  6  ~/bin/stringComp
-|4,39,10,6,1649142311,"~/bin/stringComp"
--'  10  6  ~/bin/stringComp
-|4,39,10,6,1649142311,"~/bin/stringComp"
--'  10  6  ~/bin/stringComp
-|4,39,10,6,1649142311,"~/bin/stringComp"
--'  10  6  ~/bin/stringComp
-|4,39,10,6,1649142311,"~/bin/stringComp"
--'  10  6  ~/bin/stringComp
-|4,39,10,6,1649142311,"~/bin/stringComp"
--'  10  6  ~/bin/stringComp
-|4,39,10,6,1649142311,"~/bin/stringComp"
--'  10  6  ~/bin/stringComp
-|4,39,10,6,1649142311,"~/bin/stringComp"
--'  10  6  ~/bin/stringComp
-|4,39,10,6,1649142301,"~/bin/stringComp"
--'  10  6  ~/bin/stringComp
-|4,39,10,6,1649142301,"~/bin/stringComp"
--'  10  6  ~/bin/stringComp
-|4,39,10,6,1649142301,"~/bin/stringComp"
--'  10  6  ~/bin/stringComp
-|4,39,10,6,1649142301,"~/bin/stringComp"
--'  10  6  ~/bin/stringComp
-|4,39,10,6,1649142301,"~/bin/stringComp"
--'  10  6  ~/bin/stringComp
-|4,39,10,6,1649142301,"~/bin/stringComp"
--'  10  6  ~/bin/stringComp
-|4,39,10,6,1649142301,"~/bin/stringComp"
--'  10  6  ~/bin/stringComp
-|4,39,10,6,1649142301,"~/bin/stringComp"
--'  13  21  ~/bin/stringComp
-|4,39,13,21,1649142290,"~/bin/stringComp"
--'  13  21  ~/bin/stringComp
-|4,39,13,21,1649142290,"~/bin/stringComp"
--'  13  21  ~/bin/stringComp
-|4,39,13,21,1649142290,"~/bin/stringComp"
--'  13  21  ~/bin/stringComp
-|4,39,13,21,1649142290,"~/bin/stringComp"
--'  13  21  ~/bin/stringComp
-|4,39,13,21,1649142290,"~/bin/stringComp"
--'  13  21  ~/bin/stringComp
-|4,39,13,21,1649142290,"~/bin/stringComp"
--'  13  21  ~/bin/stringComp
-|4,39,13,21,1649142290,"~/bin/stringComp"
--'  13  21  ~/bin/stringComp
-|4,39,13,21,1649142290,"~/bin/stringComp"
--'  13  21  ~/bin/stringComp
-|4,39,13,21,1649142290,"~/bin/stringComp"
--'  13  21  ~/bin/stringComp
-|4,39,13,21,1649142290,"~/bin/stringComp"
--'  13  21  ~/bin/stringComp
-|4,39,13,21,1649142290,"~/bin/stringComp"
--'  13  21  ~/bin/stringComp
-|4,39,13,21,1649142290,"~/bin/stringComp"
--'  13  21  ~/bin/stringComp
-|4,39,13,21,1649142290,"~/bin/stringComp"
--'  13  21  ~/bin/stringComp
-|4,39,13,21,1649142290,"~/bin/stringComp"
--'  13  21  ~/bin/stringComp
-|4,39,13,21,1649142290,"~/bin/stringComp"
--'  13  21  ~/bin/stringComp
-|4,39,13,21,1649142290,"~/bin/stringComp"
--'  12  21  ~/bin/stringComp
-|4,39,12,21,1649142276,"~/bin/stringComp"
--'  12  21  ~/bin/stringComp
-|4,39,12,21,1649142276,"~/bin/stringComp"
--'  12  21  ~/bin/stringComp
-|4,39,12,21,1649142276,"~/bin/stringComp"
--'  12  21  ~/bin/stringComp
-|4,39,12,21,1649142276,"~/bin/stringComp"
--'  12  21  ~/bin/stringComp
-|4,39,12,21,1649142276,"~/bin/stringComp"
--'  12  21  ~/bin/stringComp
-|4,39,12,21,1649142276,"~/bin/stringComp"
--'  12  21  ~/bin/stringComp
-|4,39,12,21,1649142276,"~/bin/stringComp"
--'  12  21  ~/bin/stringComp
-|4,39,12,21,1649142276,"~/bin/stringComp"
--'  12  21  ~/bin/stringComp
-|4,39,12,21,1649142276,"~/bin/stringComp"
--'  12  21  ~/bin/stringComp
-|4,39,12,21,1649142276,"~/bin/stringComp"
--'  12  21  ~/bin/stringComp
-|4,39,12,21,1649142276,"~/bin/stringComp"
--'  12  21  ~/bin/stringComp
-|4,39,12,21,1649142276,"~/bin/stringComp"
--'  12  21  ~/bin/stringComp
-|4,39,12,21,1649142276,"~/bin/stringComp"
--'  12  21  ~/bin/stringComp
-|4,39,12,21,1649142276,"~/bin/stringComp"
--'  12  21  ~/bin/stringComp
-|4,39,12,21,1649142276,"~/bin/stringComp"
--'  12  21  ~/bin/stringComp
-|4,39,12,21,1649142276,"~/bin/stringComp"
--'  17  1  ~/bin/stringComp
-|4,39,17,1,1649142121,"~/bin/stringComp"
--'  16  1  ~/bin/stringComp
-|4,39,16,1,1649142121,"~/bin/stringComp"
--'  17  1  ~/bin/stringComp
-|4,39,17,1,1649142121,"~/bin/stringComp"
--'  16  1  ~/bin/stringComp
-|4,39,16,1,1649142121,"~/bin/stringComp"
--'  17  1  ~/bin/stringComp
-|4,39,17,1,1649142121,"~/bin/stringComp"
--'  16  1  ~/bin/stringComp
-|4,39,16,1,1649142121,"~/bin/stringComp"
--'  17  1  ~/bin/stringComp
-|4,39,17,1,1649142121,"~/bin/stringComp"
--'  16  1  ~/bin/stringComp
-|4,39,16,1,1649142121,"~/bin/stringComp"
--'  17  1  ~/bin/stringComp
-|4,39,17,1,1649142121,"~/bin/stringComp"
--'  16  1  ~/bin/stringComp
-|4,39,16,1,1649142121,"~/bin/stringComp"
--'  17  1  ~/bin/stringComp
-|4,39,17,1,1649142121,"~/bin/stringComp"
--'  16  1  ~/bin/stringComp
-|4,39,16,1,1649142121,"~/bin/stringComp"
--'  17  1  ~/bin/stringComp
-|4,39,17,1,1649142121,"~/bin/stringComp"
--'  16  1  ~/bin/stringComp
-|4,39,16,1,1649142121,"~/bin/stringComp"
--'  17  1  ~/bin/stringComp
-|4,39,17,1,1649142121,"~/bin/stringComp"
--'  16  1  ~/bin/stringComp
-|4,39,16,1,1649142121,"~/bin/stringComp"
--'  17  1  ~/bin/stringComp
-|4,39,17,1,1649142121,"~/bin/stringComp"
--'  16  1  ~/bin/stringComp
-|4,39,16,1,1649142121,"~/bin/stringComp"
--'  17  1  ~/bin/stringComp
-|4,39,17,1,1649142121,"~/bin/stringComp"
--'  16  1  ~/bin/stringComp
-|4,39,16,1,1649142121,"~/bin/stringComp"
--'  17  1  ~/bin/stringComp
-|4,39,17,1,1649142121,"~/bin/stringComp"
--'  16  1  ~/bin/stringComp
-|4,39,16,1,1649142121,"~/bin/stringComp"
--'  17  1  ~/bin/stringComp
-|4,39,17,1,1649142121,"~/bin/stringComp"
--'  16  1  ~/bin/stringComp
-|4,39,16,1,1649142121,"~/bin/stringComp"
--'  17  1  ~/bin/stringComp
-|4,39,17,1,1649142121,"~/bin/stringComp"
+-'  88  11  ~/project/recycle
+|4,39,88,11,1649314185,"~/project/recycle"
+-'  70  11  ~/project/recycle
+|4,39,70,11,1649314137,"~/project/recycle"
+-'  7  78  ~/recyclebin
+|4,39,7,78,1649314130,"~/recyclebin"
+-'  7  78  ~/recyclebin
+|4,39,7,78,1649314130,"~/recyclebin"
+-'  70  11  ~/project/recycle
+|4,39,70,11,1649313498,"~/project/recycle"
+-'  70  11  ~/project/recycle
+|4,39,70,11,1649313498,"~/project/recycle"
+-'  45  5  ~/project/recycle
+|4,39,45,5,1649310662,"~/project/recycle"
+-'  40  3  ~/project/recycle
+|4,39,40,3,1649310662,"~/project/recycle"
+-'  45  5  ~/project/recycle
+|4,39,45,5,1649310662,"~/project/recycle"
+-'  40  3  ~/project/recycle
+|4,39,40,3,1649310662,"~/project/recycle"
+-'  45  5  ~/project/recycle
+|4,39,45,5,1649310662,"~/project/recycle"
+-'  40  3  ~/project/recycle
+|4,39,40,3,1649310662,"~/project/recycle"
+-'  56  10  ~/project/recycle
+|4,39,56,10,1649308696,"~/project/recycle"
+-'  56  10  ~/project/recycle
+|4,39,56,10,1649308696,"~/project/recycle"
+-'  56  10  ~/project/recycle
+|4,39,56,10,1649308696,"~/project/recycle"
+-'  28  16  ~/project/recycle
+|4,39,28,16,1649308694,"~/project/recycle"
+-'  28  16  ~/project/recycle
+|4,39,28,16,1649308694,"~/project/recycle"
+-'  28  16  ~/project/recycle
+|4,39,28,16,1649308694,"~/project/recycle"
+-'  89  11  ~/project/recycle
+|4,39,89,11,1649308009,"~/project/recycle"
+-'  64  11  ~/project/recycle
+|4,39,64,11,1649308009,"~/project/recycle"
+-'  89  11  ~/project/recycle
+|4,39,89,11,1649308009,"~/project/recycle"
+-'  64  11  ~/project/recycle
+|4,39,64,11,1649308009,"~/project/recycle"
+-'  89  11  ~/project/recycle
+|4,39,89,11,1649308009,"~/project/recycle"
+-'  64  11  ~/project/recycle
+|4,39,64,11,1649308009,"~/project/recycle"
+-'  86  11  ~/project/recycle
+|4,39,86,11,1649308007,"~/project/recycle"
+-'  61  11  ~/project/recycle
+|4,39,61,11,1649308007,"~/project/recycle"
+-'  86  11  ~/project/recycle
+|4,39,86,11,1649308007,"~/project/recycle"
+-'  61  11  ~/project/recycle
+|4,39,61,11,1649308007,"~/project/recycle"
+-'  86  11  ~/project/recycle
+|4,39,86,11,1649308007,"~/project/recycle"
+-'  61  11  ~/project/recycle
+|4,39,61,11,1649308007,"~/project/recycle"
+-'  23  35  ~/project/restore
+|4,39,23,35,1649307394,"~/project/restore"
+-'  23  35  ~/project/restore
+|4,39,23,35,1649307394,"~/project/restore"
+-'  23  35  ~/project/restore
+|4,39,23,35,1649307394,"~/project/restore"
+-'  23  35  ~/project/restore
+|4,39,23,35,1649307394,"~/project/restore"
+-'  23  35  ~/project/restore
+|4,39,23,35,1649307394,"~/project/restore"
+-'  23  35  ~/project/restore
+|4,39,23,35,1649307394,"~/project/restore"
+-'  23  35  ~/project/restore
+|4,39,23,35,1649307394,"~/project/restore"
+-'  23  35  ~/project/restore
+|4,39,23,35,1649307394,"~/project/restore"
+-'  23  35  ~/project/restore
+|4,39,23,35,1649307394,"~/project/restore"
+-'  23  35  ~/project/restore
+|4,39,23,35,1649307394,"~/project/restore"
+-'  23  35  ~/project/restore
+|4,39,23,35,1649307394,"~/project/restore"
+-'  23  35  ~/project/restore
+|4,39,23,35,1649307394,"~/project/restore"
+-'  23  35  ~/project/restore
+|4,39,23,35,1649307394,"~/project/restore"
+-'  23  35  ~/project/restore
+|4,39,23,35,1649307394,"~/project/restore"
+-'  23  35  ~/project/restore
+|4,39,23,35,1649307394,"~/project/restore"
+-'  23  35  ~/project/restore
+|4,39,23,35,1649307394,"~/project/restore"
+-'  20  0  ~/project/restore
+|4,39,20,0,1649307376,"~/project/restore"
+-'  20  0  ~/project/restore
+|4,39,20,0,1649307376,"~/project/restore"
+-'  20  0  ~/project/restore
+|4,39,20,0,1649307376,"~/project/restore"
+-'  20  0  ~/project/restore
+|4,39,20,0,1649307376,"~/project/restore"
+-'  20  0  ~/project/restore
+|4,39,20,0,1649307376,"~/project/restore"
+-'  20  0  ~/project/restore
+|4,39,20,0,1649307376,"~/project/restore"
+-'  20  0  ~/project/restore
+|4,39,20,0,1649307376,"~/project/restore"
+-'  20  0  ~/project/restore
+|4,39,20,0,1649307376,"~/project/restore"
+-'  20  0  ~/project/restore
+|4,39,20,0,1649307376,"~/project/restore"
+-'  20  0  ~/project/restore
+|4,39,20,0,1649307376,"~/project/restore"
+-'  20  0  ~/project/restore
+|4,39,20,0,1649307376,"~/project/restore"
+-'  20  0  ~/project/restore
+|4,39,20,0,1649307376,"~/project/restore"
+-'  20  0  ~/project/restore
+|4,39,20,0,1649307376,"~/project/restore"
+-'  20  0  ~/project/restore
+|4,39,20,0,1649307376,"~/project/restore"
+-'  20  0  ~/project/restore
+|4,39,20,0,1649307376,"~/project/restore"
+-'  20  0  ~/project/restore
+|4,39,20,0,1649307376,"~/project/restore"
+-'  90  5  ~/project/recycle
+|4,39,90,5,1649304967,"~/project/recycle"
+-'  66  5  ~/project/recycle
+|4,39,66,5,1649304967,"~/project/recycle"
+-'  63  5  ~/project/recycle
+|4,39,63,5,1649304967,"~/project/recycle"
+-'  90  5  ~/project/recycle
+|4,39,90,5,1649304967,"~/project/recycle"
+-'  88  5  ~/project/recycle
+|4,39,88,5,1649304967,"~/project/recycle"
+-'  66  5  ~/project/recycle
+|4,39,66,5,1649304967,"~/project/recycle"
+-'  63  5  ~/project/recycle
+|4,39,63,5,1649304967,"~/project/recycle"
+-'  90  5  ~/project/recycle
+|4,39,90,5,1649304967,"~/project/recycle"
+-'  88  5  ~/project/recycle
+|4,39,88,5,1649304967,"~/project/recycle"
+-'  66  5  ~/project/recycle
+|4,39,66,5,1649304967,"~/project/recycle"
+-'  63  5  ~/project/recycle
+|4,39,63,5,1649304967,"~/project/recycle"
+-'  82  23  ~/project/recycle
+|4,39,82,23,1649304367,"~/project/recycle"
+-'  53  15  ~/project/recycle
+|4,39,53,15,1649304367,"~/project/recycle"
+-'  82  23  ~/project/recycle
+|4,39,82,23,1649304367,"~/project/recycle"
+-'  56  15  ~/project/recycle
+|4,39,56,15,1649304367,"~/project/recycle"
+-'  53  15  ~/project/recycle
+|4,39,53,15,1649304367,"~/project/recycle"
+-'  82  23  ~/project/recycle
+|4,39,82,23,1649304367,"~/project/recycle"
+-'  56  15  ~/project/recycle
+|4,39,56,15,1649304367,"~/project/recycle"
+-'  53  15  ~/project/recycle
+|4,39,53,15,1649304367,"~/project/recycle"
+-'  20  0  ~/project/restore
+|4,39,20,0,1649303999,"~/project/restore"
+-'  20  0  ~/project/restore
+|4,39,20,0,1649303999,"~/project/restore"
+-'  20  0  ~/project/restore
+|4,39,20,0,1649303999,"~/project/restore"
+-'  20  0  ~/project/restore
+|4,39,20,0,1649303999,"~/project/restore"
+-'  20  0  ~/project/restore
+|4,39,20,0,1649303999,"~/project/restore"
+-'  20  0  ~/project/restore
+|4,39,20,0,1649303999,"~/project/restore"
+-'  20  0  ~/project/restore
+|4,39,20,0,1649303999,"~/project/restore"
+-'  20  0  ~/project/restore
+|4,39,20,0,1649303999,"~/project/restore"
+-'  20  0  ~/project/restore
+|4,39,20,0,1649303999,"~/project/restore"
+-'  20  0  ~/project/restore
+|4,39,20,0,1649303999,"~/project/restore"
+-'  20  0  ~/project/restore
+|4,39,20,0,1649303999,"~/project/restore"
+-'  20  0  ~/project/restore
+|4,39,20,0,1649303999,"~/project/restore"
+-'  20  0  ~/project/restore
+|4,39,20,0,1649303999,"~/project/restore"
+-'  20  0  ~/project/restore
+|4,39,20,0,1649303999,"~/project/restore"
+-'  20  0  ~/project/restore
+|4,39,20,0,1649303999,"~/project/restore"
+-'  20  0  ~/project/restore
+|4,39,20,0,1649303999,"~/project/restore"
+-'  20  0  ~/project/restore
+|4,39,20,0,1649303999,"~/project/restore"
+-'  20  0  ~/project/restore
+|4,39,20,0,1649303999,"~/project/restore"
+-'  20  0  ~/project/restore
+|4,39,20,0,1649303999,"~/project/restore"
 
 # History of marks within files (newest to oldest):
+
+> ~/project/recycle
+	*	1649314176	0
+	"	88	11
+	^	88	12
+	.	70	11
+	+	47	5
+	+	82	20
+	+	82	7
+	+	82	19
+	+	34	34
+	+	82	3
+	+	82	15
+	+	82	27
+	+	82	49
+	+	82	3
+	+	36	0
+	+	51	0
+	+	82	3
+	+	43	0
+	+	36	0
+	+	38	43
+	+	39	56
+	+	42	0
+	+	43	0
+	+	82	15
+	+	40	5
+	+	57	13
+	+	30	13
+	+	57	12
+	+	53	4
+	+	34	0
+	+	34	1
+	+	35	1
+	+	38	0
+	+	36	0
+	+	38	0
+	+	36	0
+	+	38	0
+	+	39	4
+	+	40	1
+	+	42	1
+	+	43	1
+	+	45	1
+	+	46	1
+	+	47	1
+	+	49	1
+	+	50	1
+	+	51	1
+	+	44	0
+	+	40	16
+	+	30	8
+	+	40	4
+	+	41	0
+	+	40	16
+	+	83	14
+	+	52	14
+	+	39	26
+	+	39	12
+	+	39	7
+	+	82	24
+	+	82	25
+	+	82	16
+	+	82	20
+	+	82	16
+	+	83	0
+	+	82	21
+	+	81	16
+	+	81	43
+	+	82	12
+	+	63	23
+	+	65	7
+	+	64	0
+	+	71	0
+	+	72	3
+	+	73	5
+	+	71	0
+	+	82	3
+	+	83	0
+	+	74	0
+	+	82	0
+	+	65	41
+	+	69	7
+	+	65	4
+	+	67	20
+	+	32	8
+	+	67	5
+	+	66	6
+	+	65	24
+	+	67	5
+	+	67	0
+	+	65	33
+	+	67	21
+	+	32	8
+	+	34	18
+	+	35	27
+	+	38	33
+	+	45	6
+	+	46	29
+	+	47	6
+	+	50	15
+	+	68	16
+	+	70	11
+
+> ~/project/restore
+	*	1649307392	0
+	"	23	35
+	^	23	36
+	.	23	36
+	+	10	21
+	+	10	5
+	+	10	17
+	+	10	0
+	+	27	0
+	+	19	25
+	+	10	0
+	+	11	0
+	+	19	26
+	+	14	45
+	+	14	5
+	+	10	0
+	+	11	2
+	+	12	20
+	+	14	20
+	+	14	45
+	+	14	25
+	+	14	45
+	+	14	15
+	+	14	43
+	+	14	45
+	+	14	6
+	+	14	45
+	+	19	0
+	+	12	1
+	+	12	2
+	+	19	0
+	+	12	41
+	+	14	81
+	+	18	0
+	+	14	0
+	+	12	0
+	+	14	67
+	+	18	0
+	+	19	1
+	+	2	0
+	+	10	0
+	+	10	15
+	+	14	66
+	+	14	68
+	+	18	0
+	+	20	4
+	+	20	21
+	+	26	0
+	+	14	75
+	+	20	29
+	+	12	17
+	+	19	36
+	+	16	31
+	+	11	0
+	+	14	47
+	+	3	14
+	+	14	37
+	+	13	38
+	+	19	49
+	+	14	50
+	+	19	22
+	+	19	36
+	+	24	30
+	+	25	6
+	+	7	0
+	+	3	18
+	+	6	0
+	+	24	17
+	+	21	1
+	+	19	50
+	+	21	0
+	+	19	50
+	+	20	16
+	+	19	50
+	+	21	15
+	+	20	16
+	+	23	0
+	+	19	37
+	+	21	7
+	+	19	22
+	+	21	1
+	+	20	21
+	+	19	3
+	+	21	5
+	+	20	34
+	+	21	39
+	+	20	38
+	+	21	51
+	+	23	4
+	+	23	0
+	+	14	30
+	+	14	38
+	+	14	29
+	+	16	0
+	+	17	0
+	+	16	15
+	+	15	62
+	+	20	15
+	+	24	0
+	+	22	26
+	+	20	0
+	+	21	0
+	+	23	36
+
+> ~/.restore.info
+	*	1649294322	0
+	"	1	0
+	^	1	0
+
+> ~/bin/tests
+	*	1649290167	0
+	"	3	14
+	^	3	15
+	.	3	14
+	+	7	0
+	+	3	9
+	+	2	16
+	+	3	14
+
+> bin/tests
+	*	1649289677	0
+	"	1	0
+
+> ~/bin/r
+	*	1649287108	0
+	"	2	0
+	^	2	0
+	.	1	11
+	+	1	11
+
+> ~/.bash_profile
+	*	1649230032	0
+	"	2	42
+	^	2	43
+	.	2	42
+	+	2	42
+
+> ~/bin/calculator
+	*	1649226732	0
+	"	16	0
+	^	16	1
+	.	17	0
+	+	2	7
+	+	3	24
+	+	7	24
+	+	3	25
+	+	7	25
+	+	16	36
+	+	36	0
+	+	16	17
+	+	17	0
+	+	16	33
+	+	7	21
+	+	2	3
+	+	2	0
+	+	17	0
+	+	2	0
+	+	2	11
+	+	2	7
+	+	2	12
+	+	2	9
+	+	16	1
+	+	11	7
+	+	11	25
+	+	15	48
+	+	14	5
+	+	15	39
+	+	33	12
+	+	32	12
+	+	31	7
+	+	34	11
+	+	31	11
+	+	32	17
+	+	33	17
+	+	34	15
+	+	15	47
+	+	16	1
+	+	15	21
+	+	15	17
+	+	18	21
+	+	30	0
+	+	31	1
+	+	32	0
+	+	33	1
+	+	34	0
+	+	35	27
+	+	36	0
+	+	36	5
+	+	40	0
+	+	38	30
+	+	27	3
+	+	19	1
+	+	3	0
+	+	28	33
+	+	17	0
+
+> ~/bin/test
+	*	1649225996	0
+	"	2	11
+	^	2	12
+	.	2	11
+	+	3	0
+	+	4	0
+	+	9	0
+	+	10	0
+	+	9	3
+	+	10	11
+	+	4	7
+	+	3	0
+	+	2	11
+
+> ~/bin/letterLoop
+	*	1649224994	0
+	"	7	3
+	^	7	4
+	.	6	18
+	+	4	12
+	+	3	19
+	+	6	29
+	+	7	3
+	+	3	16
+	+	4	0
+	+	3	26
+	+	4	8
+	+	2	19
+	+	3	16
+	+	4	12
+	+	6	18
+
+> ~/bin/myMenu
+	*	1649224414	0
+	"	19	27
+	^	19	28
+	.	18	12
+	+	21	0
+	+	2	0
+	+	8	0
+	+	3	0
+	+	4	0
+	+	5	0
+	+	6	0
+	+	3	0
+	+	6	1
+	+	3	6
+	+	4	0
+	+	5	0
+	+	6	27
+	+	5	36
+	+	4	24
+	+	2	0
+	+	3	0
+	+	4	0
+	+	9	0
+	+	9	9
+	+	10	6
+	+	10	10
+	+	11	0
+	+	21	3
+	+	12	0
+	+	14	0
+	+	15	8
+	+	16	0
+	+	17	8
+	+	19	0
+	+	20	0
+	+	15	0
+	+	7	6
+	+	18	12
+
+> ~/bin/math
+	*	1649223230	0
+	"	41	11
+	^	41	12
+	.	41	11
+	+	42	11
+	+	39	9
+	+	41	9
+	+	40	15
+	+	39	11
+	+	41	11
+
+> ~/bin/lineCounter
+	*	1649220563	0
+	"	9	0
+	^	8	8
+	.	8	7
+	+	9	8
+	+	7	18
+	+	6	27
+	+	7	5
+	+	3	2
+	+	8	7
+
+> ~/bin/total
+	*	1649219766	0
+	"	7	3
+	^	7	2
+	.	7	1
+	+	1	11
+	+	4	8
+	+	2	3
+	+	4	7
+	+	2	2
+	+	6	0
+	+	3	2
+	+	9	6
+	+	6	6
+	+	7	16
+	+	6	10
+	+	7	12
+	+	8	0
+	+	6	7
+	+	7	10
+	+	3	2
+	+	7	9
+	+	3	2
+	+	7	11
+	+	7	16
+	+	7	1
+	+	7	13
+	+	7	11
+	+	7	9
+	+	7	10
+	+	7	2
+	+	8	0
+	+	7	1
+
+> ~/bin/fileCounter
+	*	1649218920	0
+	"	4	22
+	^	4	23
+	.	5	23
+	+	1	11
+	+	2	11
+	+	3	2
+	+	10	3
+	+	7	19
+	+	7	0
+	+	8	18
+	+	9	0
+	+	6	9
+	+	4	14
+	+	5	24
+	+	4	15
+	+	5	23
+
+> ~/bin/fileCount
+	*	1649217693	0
+	"	1	10
+	^	2	13
+	.	1	10
+	+	2	12
+	+	1	10
+
+> ~/bin/cs
+	*	1649217656	0
+	"	7	4
+	^	7	5
+	.	5	6
+	+	3	31
+	+	4	0
+	+	6	17
+	+	7	7
+	+	3	7
+	+	4	11
+	+	5	22
+	+	6	4
+	+	7	4
+	+	8	9
+	+	5	6
+
+> ~/bin/greetingImproved
+	*	1649217496	0
+	"	11	20
+	^	11	28
+	.	11	20
+	+	1	11
+	+	8	5
+	+	2	96
+	+	6	66
+	+	7	0
+	+	2	8
+	+	2	34
+	+	2	18
+	+	2	43
+	+	2	32
+	+	8	7
+	+	6	6
+	+	8	13
+	+	6	12
+	+	8	49
+	+	13	0
+	+	4	0
+	+	3	47
+	+	7	26
+	+	9	33
+	+	11	27
+	+	7	19
+	+	9	26
+	+	11	20
+
+> ~/bin/forLoop
+	*	1649210394	0
+	"	7	3
+	^	7	4
+	.	7	3
+	+	7	3
+
+> ~/bin/delFile
+	*	1649210331	0
+	"	12	0
+	^	10	6
+	.	10	5
+	+	2	0
+	+	3	0
+	+	2	32
+	+	3	17
+	+	4	23
+	+	3	18
+	+	8	34
+	+	12	15
+	+	19	0
+	+	10	5
 
 > ~/bin/myVars
 	*	1649143024	0
@@ -280,15 +883,6 @@ $
 	+	2	10
 	+	3	13
 	+	4	4
-
-> ~/bin/delFile
-	*	1649142688	0
-	"	3	0
-	^	3	0
-	.	2	32
-	+	2	0
-	+	3	0
-	+	2	32
 
 > ~/bin/stringComp
 	*	1649142331	0
@@ -430,22 +1024,6 @@ $
 	+	1	11
 	+	2	0
 
-> ~/bin/cs
-	*	1649135428	0
-	"	8	8
-	^	8	9
-	.	8	9
-	+	3	31
-	+	4	0
-	+	6	17
-	+	7	7
-	+	3	7
-	+	4	11
-	+	5	22
-	+	6	4
-	+	7	4
-	+	8	9
-
 > ~/bin/file
 	*	1649135368	0
 	"	1	0
@@ -478,14 +1056,6 @@ $
 	.	1	1
 	+	4	21
 	+	1	1
-
-> ~/bin/fileCount
-	*	1649132340	0
-	"	1	10
-	^	2	13
-	.	1	10
-	+	2	12
-	+	1	10
 
 > ~/bin/lions6
 	*	1649132149	0
